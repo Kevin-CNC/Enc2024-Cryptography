@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imagica - Result</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='ending_css.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="result-card">
+            <h1>The resulting text is:</h1>
+            <p>{{ result }}</p>
+            <form action="{{ url_for('index') }}">
+                <button type="submit">Go Back!</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

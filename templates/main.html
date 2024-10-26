@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imagica - Use images to encrypt or decrypt data.</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='main_css.css')}}">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Use an image to encrypt a piece of data of your liking!</h1>
+            <form action="/" method="post" enctype="multipart/form-data">
+                <label for="user_text">ENTER YOUR SUPER-SECRET DATA:</label>
+                <input type="text" name="user_text" id="user_text" required>
+
+                <label for="operation">CURRENT MODE:</label>
+                <select name="oprt" id="oprt" required>
+                    <option value="ENCR">Encrypt-o Mode</option>
+                    <option value="DECR">Decrypt-o Mode</option>
+                </select>
+
+                <label for="image">CHOOSE YOUR KEY-IMAGE:</label>
+                <input type="file" name="image" id="image" accept="image/*" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="image-container" style="background-image: url('{{ url_for('static', filename='MainBG.jpg') }}'"></div>
+    </div>
+</body>
+</html>
+
