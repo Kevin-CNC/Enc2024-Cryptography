@@ -22,3 +22,14 @@ Furthermore, its' simplicity is a clear statement to how such idea can not only 
 
 Imagica is a tool that rides on a new prespective on encryption:
 Where prespectives are what truly is infinite.
+
+
+# HOW TO USE:
+1* Enter your piece of data that you'd like to encrypt.
+
+2* Enter a png, jpeg, your grandma even! Any image you'd like!
+
+3* Choose between the encrypt/decrypt modes.
+
+4* Press the confirm button and VOILA! Your piece of data is encrypted successfully! Use the same image to decrypt later if you want.
+
