@@ -1,4 +1,4 @@
-# Enc2024-Cryptography
+# Enc2024-Cryptography: Imagica  (WINNER FOR 'BEST CRYPTOGRAPHY FOR SOCIETY'!)
 Cryptographic Python tool using images to encrypt data.
 
 This tool will provide a simple, yet highly flexible way to provide secure encryption.
